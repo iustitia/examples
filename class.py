@@ -17,7 +17,7 @@ class Book:
 class Bookstore:
 
     def __init__(self):
-        books = []
+        self.books = []
 
     def restock_bookstore(self, book, count):
         pass
